@@ -1,0 +1,44 @@
+{
+  "name": "sawaref-converters",
+  "version": "1.0.0",
+  "description": "A small tool to convert JSON representation of SAWAREF toolkit to several formats: ConllU format, CSV, Arff",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aosaimy/sawaref-converters.git"
+  },
+  "bin": {
+    "sawaref-converters-conllu": "conllu.js",
+    "sawaref-converters-csv": "csv.js",
+    "sawaref-converters-arff": "arff.new.js"
+  },
+  "keywords": [
+    "sawaref",
+    "converters",
+    "conll-u",
+    "csv",
+    "arff",
+    "convert"
+  ],
+  "author": "Abdulrahman Alosaimy",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/aosaimy/sawaref-converters/issues"
+  },
+  "homepage": "https://github.com/aosaimy/sawaref-converters#readme",
+  "dependencies": {
+    "JSONStream": "^1.3.2",
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0",
+    "csv-stringify": "^2.0.1",
+    "event-stream": "^3.3.4",
+    "request": "^2.83.0",
+    "websocket": "^1.0.25",
+    "ws": "^4.0.0",
+    "yargs": "^11.0.0",
+    "yarn": "^1.3.2"
+  }
+}
